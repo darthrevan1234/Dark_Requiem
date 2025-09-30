@@ -25,10 +25,6 @@
 		</metatype>
 		-->
 		<metatype>
-			<name>Pixie</name>
-			<hide />
-		</metatype>
-		<metatype>
 			<name>Sasquatch</name>
 			<bonus>
 				<lifestylecost />
