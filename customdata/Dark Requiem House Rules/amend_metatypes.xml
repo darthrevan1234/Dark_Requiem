@@ -19,15 +19,6 @@
 -->
 <chummer>
 	<metatypes>
-		<!--
-		<metatype xpathfilter="category='Metasapient' or category='Shapeshifter'" amendoperation="recurse">
-			<hide amendoperation="addnode" />
-		</metatype>
-		-->
-		<metatype>
-			<name>Pixie</name>
-			<hide />
-		</metatype>
 		<metatype>
 			<name>Sasquatch</name>
 			<bonus>
