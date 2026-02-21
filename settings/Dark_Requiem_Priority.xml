@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <settings>
 	<id>00000000-0000-0000-0000-000000000000</id>
-	<name>Dark Requiem Settings</name>
+	<name>Dark_Requiem_Priority</name>
+	<gameplayoptionname />
 	<licenserestricted>False</licenserestricted>
 	<morelethalgameplay>False</morelethalgameplay>
 	<spiritforcebasedontotalmag>False</spiritforcebasedontotalmag>
@@ -13,12 +14,12 @@
 	<dontdoublequalities>False</dontdoublequalities>
 	<dontdoublequalityrefunds>False</dontdoublequalityrefunds>
 	<ignoreart>False</ignoreart>
-	<cyberlegmovement>True</cyberlegmovement>
+	<cyberlegmovement>False</cyberlegmovement>
 	<contactpointsexpression>{CHAUnaug} * 3</contactpointsexpression>
 	<knowledgepointsexpression>({INTUnaug} + {LOGUnaug}) * 2</knowledgepointsexpression>
 	<chargenkarmatonuyenexpression>{Karma} * 2000 + {PriorityNuyen}</chargenkarmatonuyenexpression>
 	<boundspiritexpression>{CHA}</boundspiritexpression>
-	<compiledspriteexpression>{LOG}</compiledspriteexpression>
+	<registeredspriteexpression>{LOG}</registeredspriteexpression>
 	<essencemodifierpostexpression>{Modifier}</essencemodifierpostexpression>
 	<liftlimitexpression>{STR} * 15</liftlimitexpression>
 	<carrylimitexpression>{STR} * 10</carrylimitexpression>
@@ -44,40 +45,40 @@
 	<specializationsbreakskillgroups>True</specializationsbreakskillgroups>
 	<metatypecostskarma>True</metatypecostskarma>
 	<metatypecostskarmamultiplier>1</metatypecostskarmamultiplier>
-	<limbcount>5</limbcount>
-	<excludelimbslot>skull</excludelimbslot>
-	<allowcyberwareessdiscounts>True</allowcyberwareessdiscounts>
+	<limbcount>6</limbcount>
+	<excludelimbslot />
+	<allowcyberwareessdiscounts>False</allowcyberwareessdiscounts>
 	<maximumarmormodifications>False</maximumarmormodifications>
 	<armordegredation>False</armordegredation>
 	<specialkarmacostbasedonshownvalue>False</specialkarmacostbasedonshownvalue>
 	<exceedpositivequalities>False</exceedpositivequalities>
 	<exceedpositivequalitiescostdoubled>False</exceedpositivequalitiescostdoubled>
 	<mysaddppcareer>False</mysaddppcareer>
-	<mysadeptsecondmagattribute>True</mysadeptsecondmagattribute>
+	<mysadeptsecondmagattribute>False</mysadeptsecondmagattribute>
 	<exceednegativequalities>True</exceednegativequalities>
 	<exceednegativequalitiesnobonus>True</exceednegativequalitiesnobonus>
 	<multiplyrestrictedcost>False</multiplyrestrictedcost>
 	<multiplyforbiddencost>False</multiplyforbiddencost>
 	<restrictedcostmultiplier>1</restrictedcostmultiplier>
 	<forbiddencostmultiplier>1</forbiddencostmultiplier>
-	<donotroundessenceinternally>False</donotroundessenceinternally>
-	<enableenemytracking>False</enableenemytracking>
-	<enemykarmaqualitylimit>False</enemykarmaqualitylimit>
+	<donotroundessenceinternally>True</donotroundessenceinternally>
+	<enableenemytracking>True</enableenemytracking>
+	<enemykarmaqualitylimit>True</enemykarmaqualitylimit>
 	<nuyenformat>#,0.##</nuyenformat>
 	<weightformat>#,0.###</weightformat>
 	<essenceformat>#,0.00</essenceformat>
-	<enforcecapacity>True</enforcecapacity>
+	<enforcecapacity>False</enforcecapacity>
 	<restrictrecoil>True</restrictrecoil>
 	<unrestrictednuyen>False</unrestrictednuyen>
 	<allowhigherstackedfoci>False</allowhigherstackedfoci>
 	<alloweditpartofbaseweapon>False</alloweditpartofbaseweapon>
 	<breakskillgroupsincreatemode>False</breakskillgroupsincreatemode>
-	<allowpointbuyspecializationsonkarmaskills>True</allowpointbuyspecializationsonkarmaskills>
+	<allowpointbuyspecializationsonkarmaskills>False</allowpointbuyspecializationsonkarmaskills>
 	<extendanydetectionspell>False</extendanydetectionspell>
+	<allowlimitedspellsforbarehandedadept>False</allowlimitedspellsforbarehandedadept>
 	<dontusecyberlimbcalculation>False</dontusecyberlimbcalculation>
 	<alternatemetatypeattributekarma>False</alternatemetatypeattributekarma>
 	<reverseattributepriorityorder>False</reverseattributepriorityorder>
-	<allowobsolescentupgrade>False</allowobsolescentupgrade>
 	<allowbiowaresuites>False</allowbiowaresuites>
 	<freespiritpowerpointsmag>False</freespiritpowerpointsmag>
 	<compensateskillgroupkarmadifference>False</compensateskillgroupkarmadifference>
@@ -111,7 +112,7 @@
 		<karmaattribute>5</karmaattribute>
 		<karmaquality>1</karmaquality>
 		<karmaspecialization>7</karmaspecialization>
-		<karmaknospecialization>3</karmaknospecialization>
+		<karmaknospecialization>7</karmaknospecialization>
 		<karmanewknowledgeskill>1</karmanewknowledgeskill>
 		<karmanewactiveskill>2</karmanewactiveskill>
 		<karmanewskillgroup>5</karmanewskillgroup>
@@ -158,6 +159,7 @@
 		<book>RG</book>
 		<book>SR5</book>
 		<book>SG</book>
+		<book>SGE</book>
 		<book>BB</book>
 		<book>SASS</book>
 		<book>SS</book>
@@ -168,9 +170,13 @@
 		<book>CF</book>
 		<book>HT</book>
 		<book>BLB</book>
+		<book>SHB</book>
+		<book>SHB2</book>
+		<book>SHB3</book>
 		<book>R5</book>
 		<book>HS</book>
 		<book>TVG</book>
+		<book>SPS</book>
 		<book>SFB</book>
 		<book>HKS</book>
 		<book>LCD</book>
@@ -186,36 +192,54 @@
 		<book>TSG</book>
 		<book>SL</book>
 		<book>KC</book>
+		<book>HAMG</book>
 		<book>BTB</book>
 		<book>AET</book>
 		<book>NF</book>
+		<book>SOTG</book>
 		<book>KK</book>
+		<book>GE</book>
+		<book>SW</book>
+		<book>DR</book>
+		<book>MST</book>
 	</books>
 	<customdatadirectorynames>
 		<customdatadirectoryname>
-			<directoryname>39b1963e-dfb3-4082-8d7f-79f88dab786f</directoryname>
+			<directoryname>39b1963e-dfb3-4082-8d7f-79f88dab786f&gt;1.0</directoryname>
 			<order>0</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>b056bec8-3ea6-4ce9-8cbe-9ec321b7e12a</directoryname>
+			<directoryname>4b3a4c48-d2af-4e46-9d27-9f06eab83c0c&gt;1.7.8</directoryname>
 			<order>1</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
 		<customdatadirectoryname>
-			<directoryname>SR Missions Animal Prices</directoryname>
+			<directoryname>db8f9574-b48e-406a-b9e3-6733daf9ee0b&gt;1.0</directoryname>
 			<order>2</order>
 			<enabled>True</enabled>
 		</customdatadirectoryname>
+		<customdatadirectoryname>
+			<directoryname>62aeb98e-e61c-4d0e-b4ff-03e0469e6e2b&gt;1.3</directoryname>
+			<order>3</order>
+			<enabled>False</enabled>
+		</customdatadirectoryname>
 	</customdatadirectorynames>
-	<buildmethod>Karma</buildmethod>
-	<buildpoints>800</buildpoints>
+	<buildmethod>Priority</buildmethod>
+	<buildpoints>25</buildpoints>
 	<qualitykarmalimit>25</qualitykarmalimit>
 	<priorityarray>ABCDE</priorityarray>
 	<prioritytable>Standard</prioritytable>
 	<sumtoten>10</sumtoten>
 	<availability>12</availability>
+	<maxmartialarts>1</maxmartialarts>
+	<maxmartialtechniques>5</maxmartialtechniques>
+	<nuyencarryover>5000</nuyencarryover>
 	<nuyenmaxbp>10</nuyenmaxbp>
-	<bannedwaregrades />
+	<bannedwaregrades>
+		<grade>Betaware</grade>
+		<grade>Deltaware</grade>
+		<grade>Gammaware</grade>
+	</bannedwaregrades>
 	<redlinerexclusion />
 </settings>
