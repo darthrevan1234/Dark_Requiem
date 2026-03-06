@@ -141,7 +141,6 @@
 		<!-- Heh heh heh... Shut up Beevis -->
 		<gear>
 			<name>Attack Dongle</name>
-			<cost>(Rating*6000)</cost>
 			<required amendoperation="replace">
 				<geardetails>
 					<OR>
@@ -154,7 +153,6 @@
 		</gear>
 		<gear>
 			<name>Stealth Dongle</name>
-			<cost>(Rating*6000)</cost>
 			<required amendoperation="replace">
 				<geardetails>
 					<OR>
