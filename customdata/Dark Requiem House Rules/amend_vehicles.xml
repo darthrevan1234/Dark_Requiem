@@ -85,6 +85,24 @@
 			<name>Avibras-Nissan AN 822</name>
 			<accel>3</accel>
 		</vehicle>
+ <vehicle xpathfilter="(category = 'Drones: Anthro' and body = 6)">
+      <modslots>12</modslots>
+    </vehicle>
+ <vehicle xpathfilter="(category = 'Drones: Anthro' and body = 5)">
+      <modslots>10</modslots>
+    </vehicle>
+ <vehicle xpathfilter="(category = 'Drones: Anthro' and body = 4)">
+      <modslots>8</modslots>
+    </vehicle>
+ <vehicle xpathfilter="(category = 'Drones: Anthro' and body = 3)">
+      <modslots>6</modslots>
+    </vehicle>
+ <vehicle xpathfilter="(category = 'Drones: Anthro' and body = 2)">
+      <modslots>4</modslots>
+    </vehicle>
+ <vehicle xpathfilter="(category = 'Drones: Anthro' and body = 1)">
+      <modslots>2</modslots>
+    </vehicle>
 		<vehicle>
 			<name>Medusa Extensions (Mini)</name>
 			<weaponmounts>
@@ -104,9 +122,6 @@
 		<vehicle>
 			<name>Dodge Minotaur</name>
 			<avail>16R</avail>
-		</vehicle>
-		<vehicle xpathfilter="(category = 'Drones: Anthro' and body = 6)">
-			<modslots>12</modslots>
 		</vehicle>
 	</vehicles>
 	<mods>
