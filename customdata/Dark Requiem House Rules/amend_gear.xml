@@ -135,5 +135,69 @@
 			<name>Fab Sensor Upkeep (1 Month Advance Payment)</name>
 			<category>Contracts/Upkeep</category>
 		</gear>
+		
+		<!-- Dongle Stuff -->
+		<!-- Heh heh heh... He said "Dongle" -->
+		<!-- Heh heh heh... Shut up Beevis -->
+		<gear>
+			<name>Attack Dongle</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Stealth Dongle</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Stun Dongle</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Receiver</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
+		<gear>
+			<name>Cable Tap</name>
+			<required amendoperation="replace">
+				<geardetails>
+					<OR>
+						<category>Commlinks</category>
+						<category>Cyberterminals</category>
+						<category>Custom</category>
+					</OR>
+				</geardetails>
+			</required>
+		</gear>
 	</gears>
 </chummer>
