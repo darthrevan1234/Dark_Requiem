@@ -135,5 +135,103 @@
 			<name>Fab Sensor Upkeep (1 Month Advance Payment)</name>
 			<category>Contracts/Upkeep</category>
 		</gear>
+    <gear>
+      <id>101acb97-2528-4812-a852-a8591b68145f</id>
+      <name>[Custom Cyberdeck] Attack</name>
+      <category>Custom Cyberdeck Attributes</category>
+      <rating>12</rating>
+      <source>KC</source>
+      <page>60</page>
+      <avail>0</avail>
+      <armorcapacity>[2]</armorcapacity>
+      <cost>(Rating*Rating*Rating)*500</cost>
+      <modattack>{Rating}</modattack>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Fuchi Cyber-N</name>
+            <name>Fuchi Cyber-Ex</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>cc6cb58a-a6a1-441d-84f6-a0ea3091317e</id>
+      <name>[Custom Cyberdeck] Sleaze</name>
+      <category>Custom Cyberdeck Attributes</category>
+      <rating>12</rating>
+      <source>KC</source>
+      <page>60</page>
+      <avail>0</avail>
+      <armorcapacity>[2]</armorcapacity>
+      <cost>(Rating*Rating)*500</cost>
+      <modsleaze>{Rating}</modsleaze>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Fuchi Cyber-N</name>
+            <name>Fuchi Cyber-Ex</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>c4760ef1-5fe0-477b-8579-a457aaf16bf9</id>
+      <name>[Custom Cyberdeck] Data Processing</name>
+      <category>Custom Cyberdeck Attributes</category>
+      <rating>12</rating>
+      <source>KC</source>
+      <page>60</page>
+      <avail>0</avail>
+      <armorcapacity>[2]</armorcapacity>
+      <cost>(Rating*Rating)*500</cost>
+      <moddataprocessing>{Rating}</moddataprocessing>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Fuchi Cyber-N</name>
+            <name>Fuchi Cyber-Ex</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>37c5f8bc-025a-4eca-93a8-1e93e0cabcd9</id>
+      <name>[Custom Cyberdeck] Firewall</name>
+      <category>Custom Cyberdeck Attributes</category>
+      <rating>12</rating>
+      <source>KC</source>
+      <page>60</page>
+      <avail>(Rating*4)R</avail>
+      <armorcapacity>[2]</armorcapacity>
+      <cost>(Rating*Rating*Rating)*500</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Fuchi Cyber-Ex</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
+    <gear>
+      <id>e89a1f81-d2f8-499e-9ebc-8e7230a0e4e8</id>
+      <name>[Custom Cyberdeck] Firewall</name>
+      <category>Custom Cyberdeck Attributes</category>
+      <rating>12</rating>
+      <source>KC</source>
+      <page>60</page>
+      <avail>0</avail>
+      <armorcapacity>[2]</armorcapacity>
+      <cost>(Rating*Rating*Rating)*500</cost>
+      <modfirewall>{Rating}</modfirewall>
+      <required>
+        <geardetails>
+          <OR>
+            <name>Fuchi Cyber-N</name>
+          </OR>
+        </geardetails>
+      </required>
+    </gear>
 	</gears>
 </chummer>
