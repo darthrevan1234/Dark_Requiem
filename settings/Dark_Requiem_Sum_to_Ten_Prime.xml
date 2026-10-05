@@ -9,13 +9,13 @@
 	<nuyenperbpwftm>2000.0</nuyenperbpwftm>
 	<nuyenperbpwftp>2000.0</nuyenperbpwftp>
 	<unarmedimprovementsapplytoweapons>False</unarmedimprovementsapplytoweapons>
-	<allowinitiationincreatemode>False</allowinitiationincreatemode>
+	<allowinitiationincreatemode>True</allowinitiationincreatemode>
 	<usepointsonbrokengroups>False</usepointsonbrokengroups>
 	<dontdoublequalities>False</dontdoublequalities>
 	<dontdoublequalityrefunds>False</dontdoublequalityrefunds>
 	<ignoreart>False</ignoreart>
 	<cyberlegmovement>False</cyberlegmovement>
-	<contactpointsexpression>{CHAUnaug} * 3</contactpointsexpression>
+	<contactpointsexpression>{CHAUnaug} * 6</contactpointsexpression>
 	<knowledgepointsexpression>({INTUnaug} + {LOGUnaug}) * 2</knowledgepointsexpression>
 	<chargenkarmatonuyenexpression>{Karma} * 2000 + {PriorityNuyen}</chargenkarmatonuyenexpression>
 	<boundspiritexpression>{CHA}</boundspiritexpression>
@@ -87,7 +87,7 @@
 	<priorityspellsasadeptpowers>False</priorityspellsasadeptpowers>
 	<usecalculatedpublicawareness>False</usecalculatedpublicawareness>
 	<increasedimprovedabilitymodifier>False</increasedimprovedabilitymodifier>
-	<allowfreegrids>False</allowfreegrids>
+	<allowfreegrids>True</allowfreegrids>
 	<allowtechnomancerschooling>False</allowtechnomancerschooling>
 	<cyberlimbattributebonuscapoverride>True</cyberlimbattributebonuscapoverride>
 	<cyberlimbattributebonuscap>4</cyberlimbattributebonuscap>
@@ -248,7 +248,7 @@
 		</customdatadirectoryname>
 	</customdatadirectorynames>
 	<buildmethod>SumtoTen</buildmethod>
-	<buildpoints>25</buildpoints>
+	<buildpoints>35</buildpoints>
 	<qualitykarmalimit>35</qualitykarmalimit>
 	<priorityarray>ABCDE</priorityarray>
 	<prioritytable>Prime Runner</prioritytable>

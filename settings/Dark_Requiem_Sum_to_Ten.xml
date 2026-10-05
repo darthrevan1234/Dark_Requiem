@@ -47,7 +47,7 @@
 	<metatypecostskarmamultiplier>1</metatypecostskarmamultiplier>
 	<limbcount>6</limbcount>
 	<excludelimbslot />
-	<allowcyberwareessdiscounts>False</allowcyberwareessdiscounts>
+	<allowcyberwareessdiscounts>True</allowcyberwareessdiscounts>
 	<maximumarmormodifications>False</maximumarmormodifications>
 	<armordegredation>False</armordegredation>
 	<specialkarmacostbasedonshownvalue>False</specialkarmacostbasedonshownvalue>
@@ -210,6 +210,7 @@
 		<book>DATG</book>
 		<book>GRST2019</book>
 		<book>SLG2</book>
+		<book>SLG3</book>
 		<book>SLG7</book>
 		<book>DR</book>
 		<book>MST</book>
